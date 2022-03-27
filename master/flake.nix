@@ -11,6 +11,7 @@
   inputs.src-DecisionTree-master.ref   = "refs/heads/master";
   inputs.src-DecisionTree-master.owner = "Michedev";
   inputs.src-DecisionTree-master.repo  = "DecisionTreeNim";
+  inputs.src-DecisionTree-master.dir   = "";
   inputs.src-DecisionTree-master.type  = "github";
   
   inputs."sequtils2".owner = "nim-nix-pkgs";
