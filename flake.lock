@@ -1,5 +1,33 @@
 {
   "nodes": {
+    "decisiontree-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "sequtils2": "sequtils2",
+        "src-DecisionTree-master": "src-DecisionTree-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556701,
+        "narHash": "sha256-G/GrsAsq1Wba0Y9sUB9cEBdmaN+sg5BePUgUzxYPvDI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "decisiontree",
+        "rev": "b371ce178537ab488963d42e2bc2a9187b1c9cc9",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "decisiontree",
+        "type": "github"
+      }
+    },
     "flakeNimbleLib": {
       "inputs": {
         "nixpkgs": [
@@ -34,29 +62,30 @@
     },
     "root": {
       "inputs": {
+        "decisiontree-master": "decisiontree-master",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "sequtils2": "sequtils2",
-        "src-DecisionTree-master": "src-DecisionTree-master"
+        "nixpkgs": "nixpkgs"
       }
     },
     "sequtils2": {
       "inputs": {
         "flakeNimbleLib": [
+          "decisiontree-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "decisiontree-master",
           "nixpkgs"
         ],
         "src-sequtils2-1_1_0": "src-sequtils2-1_1_0"
       },
       "locked": {
         "dir": "1_1_0",
-        "lastModified": 1651918391,
-        "narHash": "sha256-keKpG9rOvWIPPto2sWroGBeNjh6dFK6qIjA01GIzw0w=",
+        "lastModified": 1651555993,
+        "narHash": "sha256-5K7Yo2+Js8cZlSNXzBW7L1r6kD7eZKVjWcbKyxWvZgo=",
         "owner": "nim-nix-pkgs",
         "repo": "sequtils2",
-        "rev": "e283ff5716e7fa0d2e60ba22e7679c5ed25f401a",
+        "rev": "e0b26c95b9cdb9c8c89deb251174d4c221558911",
         "type": "github"
       },
       "original": {
