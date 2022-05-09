@@ -7,7 +7,7 @@
   "license": "GPL-3.0",
   "web": "https://github.com/Michedev/DecisionTreeNim",
   "refs": [
-    "fatal: unable to access 'https://github.com/Michedev/DecisionTreeNim/': SSL connection timeout",
+    "fatal: unable to access 'https://github.com/Michedev/DecisionTreeNim/': Could not resolve host: github.com",
     ""
   ],
   "heads": []
