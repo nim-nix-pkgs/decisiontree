@@ -1,0 +1,6 @@
+tests/test_fit_tree
+tests/test_impurity
+benchmark/rf
+callgrind*
+profile_results.txt
+.idea
