@@ -55,11 +55,11 @@
       },
       "locked": {
         "dir": "1_1_0",
-        "lastModified": 1667329919,
-        "narHash": "sha256-1VkgrYcm3WntYpo4yp4GCC3FdpU2SKZSUAqZvoIJdss=",
+        "lastModified": 1667334783,
+        "narHash": "sha256-A9Bp4dE+p+Wcij80GJF1hy+GoAlGuy/+L0aGqhisDh4=",
         "owner": "nim-nix-pkgs",
         "repo": "sequtils2",
-        "rev": "9c8fe48a1c90763143fbac20067e5c43974a863e",
+        "rev": "982ff08c973bbc06bf83db3672d5b89398673b25",
         "type": "github"
       },
       "original": {
