@@ -220,11 +220,11 @@
       },
       "locked": {
         "dir": "1_1_0",
-        "lastModified": 1669431362,
-        "narHash": "sha256-jOELgR6NY8MZSXbU7s0SPo7dF5fTdFhuNwFnd6R3mK0=",
+        "lastModified": 1669438291,
+        "narHash": "sha256-wFB9hq5mdlmjYPzm+mgOuxz8yIsPbX7XuGpwA1MZqdQ=",
         "owner": "nim-nix-pkgs",
         "repo": "sequtils2",
-        "rev": "43ab2130baa46134d12eb5f70a401d5a9202f394",
+        "rev": "0e852242630dc614ca05da0be6f93543bf70d64b",
         "type": "github"
       },
       "original": {
